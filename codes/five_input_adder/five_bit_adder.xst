@@ -1,0 +1,5 @@
+set -tmpdir "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/xst/projnav.tmp"
+set -xsthdpdir "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/xst"
+elaborate
+-ifn five_bit_adder.prj
+-ifmt mixed

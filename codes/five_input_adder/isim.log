@@ -1,0 +1,215 @@
+ISim log file
+Running: /media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 40 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 113
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                  35: 0000 + 0000 + 0000 + 0000 + 0000 = xxxxxx, carry = 0
+
+time=                  75: 0001 + 0001 + 0001 + 0001 + 0001 = xxxxxx, carry = x
+
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                  35: 0000 + 0000 + 0000 + 0000 + 0000 = xxxxxx, carry = 0
+
+time=                  75: 1001 + 0101 + 0011 + 1011 + 1111 = xxxxxx, carry = x
+
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                   3: 0000 + xxxx + xxxx + xxxx + xxxx = zzxxxx, carry = 0
+
+time=                  11: 0000 + 0000 + xxxx + xxxx + xxxx = zz0000, carry = 0
+
+time=                  43: 1001 + 0000 + 0000 + 0000 + 1001 = zz1001, carry = 0
+
+time=                  51: 1001 + 0101 + 0000 + 0000 + 0101 = zz1110, carry = 0
+
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                   3: 0000 + xxxx + xxxx + xxxx + xxxx = z0xxxx, carry = z
+
+time=                  11: 0000 + 0000 + xxxx + xxxx + xxxx = z00000, carry = z
+
+time=                  43: 1001 + 0000 + 0000 + 0000 + 1001 = z01001, carry = z
+
+time=                  51: 1001 + 0101 + 0000 + 0000 + 0101 = z01110, carry = z
+
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                  19: 0000 + 0000 + 0000 + xxxx + xxxx = z0xxxx, carry = z
+
+time=                  27: 0000 + 0000 + 0000 + 0000 + xxxx = z00000, carry = z
+
+time=                  59: 1001 + 0101 + 0011 + 0000 + 0011 = z00011, carry = z
+
+time=                  67: 1001 + 0101 + 0011 + 1011 + 1011 = z01110, carry = z
+
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                  27: 0000 + 0000 + 0000 + 0000 + xxxx = z0xxxx, carry = z
+
+time=                  35: 0000 + 0000 + 0000 + 0000 + 0000 = z00000, carry = z
+
+time=                  41: 0000 + 0000 + 0000 + 0000 + 1001 = z01001, carry = z
+
+time=                  49: 1001 + 0000 + 0000 + 0000 + 0101 = z00101, carry = z
+
+time=                  57: 1001 + 0101 + 0000 + 0000 + 0011 = z00011, carry = z
+
+time=                  65: 1001 + 0101 + 0011 + 0000 + 1011 = z01011, carry = z
+
+time=                  67: 1001 + 0101 + 0011 + 1011 + 1011 = z10110, carry = z
+
+time=                  73: 1001 + 0101 + 0011 + 1011 + 1111 = z11010, carry = z
+
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder.v" Line 36.  For instance uut/FvB1/, width 5 of formal port a is not equal to width 4 of actual variable a. 
+WARNING: File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder.v" Line 39.  For instance uut/FvB1/, width 5 of formal port b is not equal to width 4 of actual variable b. 
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                  11: 0000 + 0000 + xxxx + xxxx + xxxx = xx0000, carry = z
+
+time=                  43: 1001 + 0000 + 0000 + 0000 + 1001 = xx1001, carry = z
+
+time=                  51: 1001 + 0101 + 0000 + 0000 + 0101 = xx1110, carry = z
+
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder.v" Line 36.  For instance uut/FvB1/, width 5 of formal port a is not equal to width 4 of actual variable a. 
+WARNING: File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder.v" Line 39.  For instance uut/FvB1/, width 5 of formal port b is not equal to width 4 of actual variable b. 
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                  11: 0000 + 0000 + xxxx + xxxx + xxxx = xx0000, carry = z
+
+time=                  43: 1001 + 0000 + 0000 + 0000 + 1001 = xx1001, carry = z
+
+time=                  51: 1001 + 0101 + 0000 + 0000 + 0101 = xx1110, carry = z
+
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                  11: 0000 + 0000 + xxxx + xxxx + xxxx = 0xxxxx, carry = z
+
+time=                  19: 0000 + 0000 + 0000 + xxxx + xxxx = 00xxxx, carry = z
+
+time=                  27: 0000 + 0000 + 0000 + 0000 + xxxx = 000000, carry = z
+
+time=                  43: 1001 + 0000 + 0000 + 0000 + 1001 = 001001, carry = z
+
+time=                  51: 1001 + 0101 + 0000 + 0000 + 0101 = 001110, carry = z
+
+time=                  59: 1001 + 0101 + 0011 + 0000 + 0011 = 010001, carry = z
+
+time=                  67: 1001 + 0101 + 0011 + 1011 + 1011 = 011100, carry = z
+
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                  27: 0000 + 0000 + 0000 + 0000 + xxxx = xxxxxx, carry = 0
+
+time=                  35: 0000 + 0000 + 0000 + 0000 + 0000 = 000000, carry = 0
+
+time=                  43: 1001 + 0000 + 0000 + 0000 + 1001 = 001001, carry = 0
+
+time=                  51: 1001 + 0101 + 0000 + 0000 + 0101 = 001110, carry = 0
+
+time=                  59: 1001 + 0101 + 0011 + 0000 + 0011 = 010001, carry = 0
+
+time=                  67: 1001 + 0101 + 0011 + 1011 + 1011 = 011100, carry = 0
+
+time=                  75: 1001 + 0101 + 0011 + 1011 + 1111 = 101011, carry = 0
+
+Stopped at time : 80 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top.v" Line 160
+# exit 0

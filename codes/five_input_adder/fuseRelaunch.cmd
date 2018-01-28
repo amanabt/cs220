@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top_isim_beh.exe" -prj "/media/ubermensch/AMAN_14072/cs220/codes/five_input_adder/five_input_adder_top_beh.prj" "work.five_input_adder_top" "work.glbl" 

@@ -1,0 +1,5 @@
+MO four_bit_adder NULL four_bit_adder.v vlg05/four__bit__adder.bin 1517172615
+MO six_bit_adder NULL six_bit_adder.v vlg65/six__bit__adder.bin 1517172615
+MO five_bit_adder NULL five_bit_adder.v vlg57/five__bit__adder.bin 1517172615
+MO full_adder NULL full_adder.v vlg5A/full__adder.bin 1517172615
+MO five_input_adder NULL five_input_adder.v vlg00/five__input__adder.bin 1517172615

@@ -1,0 +1,92 @@
+ISim log file
+Running: /media/ubermensch/AMAN_14072/cs220/codes/lab2_2/eight_bit_comp_top_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/ubermensch/AMAN_14072/cs220/codes/lab2_2/eight_bit_comp_top_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                   3: xxxx0001 comp 00010001 = x, x, x
+
+time=                  11: 00010001 comp 00010001 = 1, 0, 0
+
+Stopped at time : 32 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/lab2_2/eight_bit_comp_top.v" Line 98
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                   3: xxxx0001 comp 00010001 = x, x, x
+
+time=                  11: 10010001 comp 00010001 = 0, 1, 0
+
+Stopped at time : 32 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/lab2_2/eight_bit_comp_top.v" Line 98
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                   3: xxxx1001 comp 10011001 = x, x, x
+
+time=                  11: 10011001 comp 10011001 = 1, 0, 0
+
+Stopped at time : 32 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/lab2_2/eight_bit_comp_top.v" Line 98
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                   3: xxxx1001 comp 10011001 = x, x, x
+
+time=                  11: 11011001 comp 10011001 = 0, 1, 0
+
+Stopped at time : 32 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/lab2_2/eight_bit_comp_top.v" Line 98
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                   3: xxxx1001 comp xxxxxxxx = x, x, x
+
+time=                  11: 11011001 comp xxxxxxxx = x, x, x
+
+time=                  19: 11011001 comp xxxx0001 = 0, x, x
+
+time=                  27: 11011001 comp 10010001 = 0, 1, 0
+
+Stopped at time : 32 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/lab2_2/eight_bit_comp_top.v" Line 98
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                   3: xxxx1001 comp xxxxxxxx = x, x, x
+
+time=                  11: 10011001 comp xxxxxxxx = x, x, x
+
+time=                  19: 10011001 comp xxxx1101 = 0, x, x
+
+time=                  27: 10011001 comp 10011101 = 0, 0, 1
+
+Stopped at time : 32 ns : File "/media/ubermensch/AMAN_14072/cs220/codes/lab2_2/eight_bit_comp_top.v" Line 98
+# exit 0

@@ -1,0 +1,5 @@
+set -tmpdir "/media/ubermensch/AMAN_14072/cs220/codes/lab_21/xst/projnav.tmp"
+set -xsthdpdir "/media/ubermensch/AMAN_14072/cs220/codes/lab_21/xst"
+elaborate
+-ifn seven_bt_adder.prj
+-ifmt mixed

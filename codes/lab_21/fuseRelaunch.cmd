@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/media/ubermensch/AMAN_14072/cs220/codes/lab_21/seven_bt_adder_isim_beh.exe" -prj "/media/ubermensch/AMAN_14072/cs220/codes/lab_21/seven_bt_adder_beh.prj" "work.seven_bt_adder" "work.glbl" 
