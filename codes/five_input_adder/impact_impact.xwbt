@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/impact.xsl
+OUTFILE=/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder
+LICENSE=iMPACT
+USER_INFO=iMPACT

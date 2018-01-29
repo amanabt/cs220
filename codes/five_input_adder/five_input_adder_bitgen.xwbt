@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/five_input_adder.ncd
+OUTFILE=/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/five_input_adder.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder
+LICENSE=WebPack
+USER_INFO=211450758_0_0_676

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/users/misc/mukundm/Desktop/Aman/cs220/codes/lab_21/seven_bt_adder.xst" -ofn "/users/misc/mukundm/Desktop/Aman/cs220/codes/lab_21/seven_bt_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_bt_adder.ucf -p xc3s500e-fg320-4 seven_bt_adder.ngc seven_bt_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_bt_adder_map.ncd seven_bt_adder.ngd seven_bt_adder.pcf 
+par -w -intstyle ise -ol high -t 1 seven_bt_adder_map.ncd seven_bt_adder.ncd seven_bt_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_bt_adder.twx seven_bt_adder.ncd -o seven_bt_adder.twr seven_bt_adder.pcf -ucf seven_bt_adder.ucf 
+bitgen -intstyle ise -f seven_bt_adder.ut seven_bt_adder.ncd 

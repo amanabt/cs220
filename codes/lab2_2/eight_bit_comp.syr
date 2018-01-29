@@ -1,0 +1,493 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Reading design: eight_bit_comp.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "eight_bit_comp.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "eight_bit_comp"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : eight_bit_comp
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "one_bit_comp.v" in library work
+Compiling verilog file "eight_bit_comp.v" in library work
+Module <one_bit_comp> compiled
+Module <eight_bit_comp> compiled
+No errors in compilation
+Analysis of file <"eight_bit_comp.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <eight_bit_comp> in library <work>.
+
+Analyzing hierarchy for module <one_bit_comp> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <eight_bit_comp>.
+Module <eight_bit_comp> is correct for synthesis.
+ 
+Analyzing module <one_bit_comp> in library <work>.
+Module <one_bit_comp> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <one_bit_comp>.
+    Related source file is "one_bit_comp.v".
+    Found 1-bit xor2 for signal <equalo$xor0000>.
+Unit <one_bit_comp> synthesized.
+
+
+Synthesizing Unit <eight_bit_comp>.
+    Related source file is "eight_bit_comp.v".
+    Found 8-bit register for signal <a>.
+    Found 8-bit register for signal <b>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <eight_bit_comp> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 16
+ 1-bit register                                        : 16
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <eight_bit_comp> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block eight_bit_comp, actual ratio is 0.
+FlipFlop a_7 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop a_6 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop a_5 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop a_4 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop a_3 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop a_2 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop a_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop a_0 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop b_7 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop b_6 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop b_5 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop b_4 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop b_3 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop b_2 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop b_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop b_0 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : eight_bit_comp.ngr
+Top Level Output File Name         : eight_bit_comp
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 27
+
+Cell Usage :
+# BELS                             : 19
+#      LUT3                        : 4
+#      LUT4                        : 15
+# FlipFlops/Latches                : 32
+#      FD                          : 32
+# Clock Buffers                    : 4
+#      BUFGP                       : 4
+# IO Buffers                       : 23
+#      IBUF                        : 4
+#      OBUF                        : 19
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       11  out of   4656     0%  
+ Number of Slice Flip Flops:             16  out of   9312     0%  
+ Number of 4 input LUTs:                 19  out of   9312     0%  
+ Number of IOs:                          27
+ Number of bonded IOBs:                  27  out of    232    11%  
+    IOB Flip Flops:                      16
+ Number of GCLKs:                         4  out of     24    16%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+pb1                                | BUFGP                  | 8     |
+pb2                                | BUFGP                  | 8     |
+pb3                                | BUFGP                  | 8     |
+pb4                                | BUFGP                  | 8     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.283ns
+   Maximum output required time after clock: 8.513ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'pb1'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              2.283ns (Levels of Logic = 1)
+  Source:            x<3> (PAD)
+  Destination:       a_3 (FF)
+  Destination Clock: pb1 rising
+
+  Data Path: x<3> to a_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.218   0.757  x_3_IBUF (x_3_IBUF)
+     FD:D                      0.308          a_3
+    ----------------------------------------
+    Total                      2.283ns (1.526ns logic, 0.757ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'pb2'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              2.283ns (Levels of Logic = 1)
+  Source:            x<1> (PAD)
+  Destination:       a_5 (FF)
+  Destination Clock: pb2 rising
+
+  Data Path: x<1> to a_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.218   0.757  x_1_IBUF (x_1_IBUF)
+     FD:D                      0.308          a_5
+    ----------------------------------------
+    Total                      2.283ns (1.526ns logic, 0.757ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'pb3'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              2.283ns (Levels of Logic = 1)
+  Source:            x<2> (PAD)
+  Destination:       b_2 (FF)
+  Destination Clock: pb3 rising
+
+  Data Path: x<2> to b_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.218   0.757  x_2_IBUF (x_2_IBUF)
+     FD:D                      0.308          b_2
+    ----------------------------------------
+    Total                      2.283ns (1.526ns logic, 0.757ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'pb4'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              2.283ns (Levels of Logic = 1)
+  Source:            x<3> (PAD)
+  Destination:       b_7 (FF)
+  Destination Clock: pb4 rising
+
+  Data Path: x<3> to b_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.218   0.757  x_3_IBUF (x_3_IBUF)
+     FD:D                      0.308          b_7
+    ----------------------------------------
+    Total                      2.283ns (1.526ns logic, 0.757ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'pb2'
+  Total number of paths / destination ports: 30 / 7
+-------------------------------------------------------------------------
+Offset:              8.417ns (Levels of Logic = 4)
+  Source:            a_5 (FF)
+  Destination:       equal (PAD)
+  Source Clock:      pb2 rising
+
+  Data Path: a_5 to equal
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.610  a_5 (a_5)
+     LUT4:I1->O            3   0.704   0.706  OB2/equalo_SW0 (N11)
+     LUT4:I0->O            3   0.704   0.706  OB4/equalo (equal0<4>)
+     LUT4:I0->O            1   0.704   0.420  OB7/equalo (equal_OBUF)
+     OBUF:I->O                 3.272          equal_OBUF (equal)
+    ----------------------------------------
+    Total                      8.417ns (5.975ns logic, 2.442ns route)
+                                       (71.0% logic, 29.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'pb4'
+  Total number of paths / destination ports: 30 / 7
+-------------------------------------------------------------------------
+Offset:              8.513ns (Levels of Logic = 4)
+  Source:            b_5 (FF)
+  Destination:       equal (PAD)
+  Source Clock:      pb4 rising
+
+  Data Path: b_5 to equal
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.706  b_5 (b_5)
+     LUT4:I0->O            3   0.704   0.706  OB2/equalo_SW0 (N11)
+     LUT4:I0->O            3   0.704   0.706  OB4/equalo (equal0<4>)
+     LUT4:I0->O            1   0.704   0.420  OB7/equalo (equal_OBUF)
+     OBUF:I->O                 3.272          equal_OBUF (equal)
+    ----------------------------------------
+    Total                      8.513ns (5.975ns logic, 2.538ns route)
+                                       (70.2% logic, 29.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'pb3'
+  Total number of paths / destination ports: 18 / 7
+-------------------------------------------------------------------------
+Offset:              8.120ns (Levels of Logic = 4)
+  Source:            b_1 (FF)
+  Destination:       lower (PAD)
+  Source Clock:      pb3 rising
+
+  Data Path: b_1 to lower
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.706  b_1 (b_1)
+     LUT4:I0->O            1   0.704   0.595  OB7/lowero138_SW0 (N15)
+     LUT3:I0->O            1   0.704   0.424  OB7/lowero138 (OB7/lowero138)
+     LUT4:I3->O            1   0.704   0.420  OB7/lowero168 (lower_OBUF)
+     OBUF:I->O                 3.272          lower_OBUF (lower)
+    ----------------------------------------
+    Total                      8.120ns (5.975ns logic, 2.145ns route)
+                                       (73.6% logic, 26.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'pb1'
+  Total number of paths / destination ports: 18 / 7
+-------------------------------------------------------------------------
+Offset:              8.024ns (Levels of Logic = 4)
+  Source:            a_0 (FF)
+  Destination:       lower (PAD)
+  Source Clock:      pb1 rising
+
+  Data Path: a_0 to lower
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.610  a_0 (a_0)
+     LUT4:I1->O            1   0.704   0.595  OB7/lowero138_SW0 (N15)
+     LUT3:I0->O            1   0.704   0.424  OB7/lowero138 (OB7/lowero138)
+     LUT4:I3->O            1   0.704   0.420  OB7/lowero168 (lower_OBUF)
+     OBUF:I->O                 3.272          lower_OBUF (lower)
+    ----------------------------------------
+    Total                      8.024ns (5.975ns logic, 2.049ns route)
+                                       (74.5% logic, 25.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 6.54 secs
+ 
+--> 
+
+
+Total memory usage is 515992 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

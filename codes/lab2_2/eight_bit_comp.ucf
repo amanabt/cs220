@@ -1,0 +1,59 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "x[3]" IOSTANDARD = LVTTL;
+NET "x[2]" IOSTANDARD = LVTTL;
+NET "x[1]" IOSTANDARD = LVTTL;
+NET "x[0]" IOSTANDARD = LVTTL;
+
+# PlanAhead Generated physical constraints 
+
+NET "x[3]" LOC = N17;
+NET "x[2]" LOC = H18;
+NET "x[1]" LOC = L14;
+NET "x[0]" LOC = L13;
+
+# PlanAhead Generated IO constraints 
+
+NET "x[3]" PULLUP;
+NET "x[2]" PULLUP;
+NET "x[1]" PULLUP;
+NET "x[0]" PULLUP;
+NET "pb1" IOSTANDARD = LVTTL;
+
+# PlanAhead Generated physical constraints 
+
+NET "pb1" LOC = D18;
+NET "pb2" LOC = V4;
+NET "pb3" LOC = H13;
+NET "pb4" LOC = K17;
+
+# PlanAhead Generated IO constraints 
+
+NET "pb2" IOSTANDARD = LVTTL;
+NET "pb3" IOSTANDARD = LVTTL;
+NET "pb4" IOSTANDARD = LVTTL;
+NET "pb1" PULLDOWN;
+NET "pb2" PULLDOWN;
+NET "pb3" PULLDOWN;
+NET "pb4" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+
+NET "lower" LOC = F12;
+NET "greater" LOC = E12;
+NET "equal" LOC = E11;
+
+# PlanAhead Generated IO constraints 
+
+NET "equal" IOSTANDARD = LVTTL;
+NET "greater" IOSTANDARD = LVTTL;
+NET "lower" IOSTANDARD = LVTTL;
+NET "equal" DRIVE = 8;
+NET "greater" DRIVE = 8;
+NET "lower" DRIVE = 8;
+
+NET "PB1" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "PB2" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "PB3" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "PB4" CLOCK_DEDICATED_ROUTE = FALSE;

@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/five_input_adder.xst" -ofn "/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/five_input_adder.syr" 
+xst -intstyle ise -ifn "/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/five_input_adder.xst" -ofn "/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/five_input_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc five_input_adder.ucf -p xc3s500e-fg320-4 five_input_adder.ngc five_input_adder.ngd  
+xst -intstyle ise -ifn "/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/five_input_adder.xst" -ofn "/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/five_input_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc five_input_adder.ucf -p xc3s500e-fg320-4 five_input_adder.ngc five_input_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o five_input_adder_map.ncd five_input_adder.ngd five_input_adder.pcf 
+par -w -intstyle ise -ol high -t 1 five_input_adder_map.ncd five_input_adder.ncd five_input_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml five_input_adder.twx five_input_adder.ncd -o five_input_adder.twr five_input_adder.pcf -ucf five_input_adder.ucf 
+bitgen -intstyle ise -f five_input_adder.ut five_input_adder.ncd 
