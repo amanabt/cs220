@@ -1,0 +1,10 @@
+Command line:
+   blink_LED_top_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  35183
+
+Mon Feb  5 01:01:50 2018
+
+
+ Elaboration Time: 0.02 sec
