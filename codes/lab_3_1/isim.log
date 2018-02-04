@@ -12,3 +12,5 @@ Time resolution is 1 ps
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 # run 2s
+Stopped at time : 478679763 ns : File "/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_3_1/blink_LED_top.v" Line 51
+# exit 0

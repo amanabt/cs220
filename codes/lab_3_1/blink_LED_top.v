@@ -48,7 +48,7 @@ module blink_LED_top;
 	end
 	
 	always begin
-		#10 clk = !clk;
+		#1 clk = !clk;
 	end
 endmodule
 

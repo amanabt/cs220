@@ -23,7 +23,7 @@
 #endif
 static const char *ng0 = "/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_3_1/blink_LED.v";
 static int ng1[] = {0, 0};
-static int ng2[] = {50000000, 0};
+static int ng2[] = {25000000, 0};
 static int ng3[] = {1, 0};
 
 

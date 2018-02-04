@@ -29,11 +29,11 @@ module blink(clk, ledpin);
 	reg ledpin = 0;
 
 	//Set Counter Variable
-	reg [25:0] counter = 50_000_000;	// 26 bit variable
+	reg [25:0] counter = 25_000_000;	// 26 bit variable
 
 	always @(posedge clk) begin
 		if (counter == 0) begin
-			counter <= 50_000_000;
+			counter <= 25_000_000;
 			ledpin <= !ledpin;
 		end
 		else begin
