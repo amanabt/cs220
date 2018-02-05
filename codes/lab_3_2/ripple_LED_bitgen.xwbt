@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_3_2/ripple_LED.ncd
-OUTFILE=/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_3_2/ripple_LED.bit
+INFILE=/users/misc/mukundm/Desktop/Aman/cs220/codes/lab_3_2/ripple_LED.ncd
+OUTFILE=/users/misc/mukundm/Desktop/Aman/cs220/codes/lab_3_2/ripple_LED.bit
 FAMILY=Spartan3E
 PART=xc3s500e-4fg320
-WORKINGDIR=/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_3_2
+WORKINGDIR=/users/misc/mukundm/Desktop/Aman/cs220/codes/lab_3_2
 LICENSE=WebPack
-USER_INFO=211461057_0_0_635
+USER_INFO=211450758_0_0_676

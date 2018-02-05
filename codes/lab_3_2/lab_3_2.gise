@@ -56,6 +56,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ripple_LED.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="ripple_LED.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ripple_LED.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ripple_LED_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="ripple_LED_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ripple_LED_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ripple_LED_map.mrp" xil_pn:subbranch="Map"/>
@@ -85,6 +86,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1517773914" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1517773914">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1517774032" xil_pn:in_ck="5040237841723082234" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1517774032">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -131,6 +133,7 @@
     </transform>
     <transform xil_pn:end_ts="1517774117" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1517774117">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1517774117" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3974169201106565713" xil_pn:start_ts="1517774117">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -156,7 +159,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1517774466" xil_pn:in_ck="5927976277076540068" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-3997248266125169690" xil_pn:start_ts="1517774452">
+    <transform xil_pn:end_ts="1517821314" xil_pn:in_ck="5927976277076540068" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="1205815695116412530" xil_pn:start_ts="1517821300">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -179,7 +182,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1517774560" xil_pn:in_ck="4302650758137028178" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7601964679382460254" xil_pn:start_ts="1517774553">
+    <transform xil_pn:end_ts="1517821324" xil_pn:in_ck="4302650758137028178" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7601964679382460254" xil_pn:start_ts="1517821314">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_ngo"/>
@@ -188,7 +191,7 @@
       <outfile xil_pn:name="ripple_LED.ngd"/>
       <outfile xil_pn:name="ripple_LED_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1517774567" xil_pn:in_ck="-5593330755307959277" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1517774560">
+    <transform xil_pn:end_ts="1517821335" xil_pn:in_ck="-5593330755307959277" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1517821324">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -203,7 +206,7 @@
       <outfile xil_pn:name="ripple_LED_summary.xml"/>
       <outfile xil_pn:name="ripple_LED_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1517774584" xil_pn:in_ck="-1786933457717796500" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1517774567">
+    <transform xil_pn:end_ts="1517821359" xil_pn:in_ck="-1786933457717796500" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1517821335">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
@@ -217,9 +220,11 @@
       <outfile xil_pn:name="ripple_LED_pad.txt"/>
       <outfile xil_pn:name="ripple_LED_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1517774599" xil_pn:in_ck="-794260061990936893" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1517774592">
+    <transform xil_pn:end_ts="1517821371" xil_pn:in_ck="-794260061990936893" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1517821359">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="ripple_LED.bgn"/>
       <outfile xil_pn:name="ripple_LED.bit"/>
@@ -229,7 +234,11 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1517774584" xil_pn:in_ck="-9042600213947779953" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1517774580">
+    <transform xil_pn:end_ts="1517821375" xil_pn:in_ck="-794260061990949747" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1517821374">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1517821359" xil_pn:in_ck="-9042600213947779953" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1517821353">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

@@ -5,7 +5,7 @@ Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
 ise -dd _ngo -nt timestamp -uc blink.ucf -p xc3s500e-fg320-4 blink.ngc blink.ngd
 
 Reading NGO file
-"/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_3_1/blink.ngc" ...
+"/users/misc/mukundm/Desktop/Aman/cs220/codes/lab_3_1/blink.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -31,10 +31,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 390224 kilobytes
+Total memory usage is 395444 kilobytes
 
 Writing NGD file "blink.ngd" ...
-Total REAL time to NGDBUILD completion:  3 sec
-Total CPU time to NGDBUILD completion:   3 sec
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   4 sec
 
 Writing NGDBUILD log file "blink.bld"...
