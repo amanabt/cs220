@@ -11,5 +11,11 @@
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_4_1/ripple_led_top.v&quot; into library work</arg>
 </msg>
 
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_4_1/rot_enc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_4_1/rotate_LED.v&quot; into library work</arg>
+</msg>
+
 </messages>
 

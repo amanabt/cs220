@@ -1,0 +1,5 @@
+set -tmpdir "/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_4_2/xst/projnav.tmp"
+set -xsthdpdir "/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_4_2/xst"
+elaborate
+-ifn seven_bt_ad_sub.prj
+-ifmt mixed

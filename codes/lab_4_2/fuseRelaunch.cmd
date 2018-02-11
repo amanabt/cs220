@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_4_2/add_sub_top_isim_beh.exe" -prj "/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_4_2/add_sub_top_beh.prj" "work.add_sub_top" "work.glbl" 

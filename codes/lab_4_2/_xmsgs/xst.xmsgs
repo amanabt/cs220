@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompilers" num="246" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 89 </arg>Reference to <arg fmt="%s" index="2">vector reg &apos;c&apos;</arg> is not a legal net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="102" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 89 </arg>Connection to output port &apos;<arg fmt="%s" index="2">sum</arg>&apos; must be a net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="246" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 90 </arg>Reference to <arg fmt="%s" index="2">vector reg &apos;c&apos;</arg> is not a legal net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="102" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 90 </arg>Connection to output port &apos;<arg fmt="%s" index="2">sum</arg>&apos; must be a net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="246" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 91 </arg>Reference to <arg fmt="%s" index="2">vector reg &apos;c&apos;</arg> is not a legal net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="102" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 91 </arg>Connection to output port &apos;<arg fmt="%s" index="2">sum</arg>&apos; must be a net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="246" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 92 </arg>Reference to <arg fmt="%s" index="2">vector reg &apos;c&apos;</arg> is not a legal net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="102" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 92 </arg>Connection to output port &apos;<arg fmt="%s" index="2">sum</arg>&apos; must be a net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="246" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 93 </arg>Reference to <arg fmt="%s" index="2">vector reg &apos;c&apos;</arg> is not a legal net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="102" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 93 </arg>Connection to output port &apos;<arg fmt="%s" index="2">sum</arg>&apos; must be a net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="246" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 94 </arg>Reference to <arg fmt="%s" index="2">vector reg &apos;c&apos;</arg> is not a legal net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="102" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 94 </arg>Connection to output port &apos;<arg fmt="%s" index="2">sum</arg>&apos; must be a net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="246" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 95 </arg>Reference to <arg fmt="%s" index="2">vector reg &apos;c&apos;</arg> is not a legal net lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="102" delta="old" ><arg fmt="%s" index="1">&quot;seven_bt_ad_sub.v&quot; line 95 </arg>Connection to output port &apos;<arg fmt="%s" index="2">sum</arg>&apos; must be a net lvalue
+</msg>
+
+</messages>

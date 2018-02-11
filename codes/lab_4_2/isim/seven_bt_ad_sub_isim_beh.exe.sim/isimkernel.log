@@ -1,0 +1,29 @@
+Command line:
+   seven_bt_ad_sub_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  57779
+
+Mon Feb 12 01:39:21 2018
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 196.239 Meg
+
+ Total Signals          : 202
+ Total Nets             : 152
+ Total Signal Drivers   : 133
+ Total Blocks           : 38
+ Total Primitive Blocks : 37
+ Total Processes        : 135
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 251
+Total Line Count : 104
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 271.741 Meg
+
+Mon Feb 12 01:39:33 2018
+
