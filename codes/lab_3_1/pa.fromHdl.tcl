@@ -1,7 +1,7 @@
 
 # PlanAhead Launch Script for Pre-Synthesis Floorplanning, created by Project Navigator
 
-create_project -name lab_3_1 -dir "/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_3_1/planAhead_run_1" -part xc3s500efg320-4
+create_project -name lab_3_1 -dir "/users/misc/mukundm/Desktop/Aman/cs220/codes/lab_3_1/planAhead_run_2" -part xc3s500efg320-4
 set_param project.pinAheadLayout yes
 set srcset [get_property srcset [current_run -impl]]
 set_property target_constrs_file "blink.ucf" [current_fileset -constrset]

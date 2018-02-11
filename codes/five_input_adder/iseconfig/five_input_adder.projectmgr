@@ -7,6 +7,7 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode></ClosedNode>
          <ClosedNode>/five_bit_adder |media|ubermensch|AMAN_14072|cs220|codes|five_input_adder|five_bit_adder.v</ClosedNode>
          <ClosedNode>/five_input_adder |media|ubermensch|AMAN_14072|cs220|codes|five_input_adder|five_input_adder.v/FrB0 - four_bit_adder</ClosedNode>
          <ClosedNode>/five_input_adder |media|ubermensch|AMAN_14072|cs220|codes|five_input_adder|five_input_adder.v/FrB1 - four_bit_adder</ClosedNode>
@@ -17,13 +18,13 @@
          <ClosedNode>/six_bit_adder |media|ubermensch|AMAN_14072|cs220|codes|five_input_adder|six_bit_adder.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>five_input_adder (/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/five_input_adder.v)</SelectedItem>
+         <SelectedItem>xc3s500e-4fg320</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000156000000020000000000000000000000000200000064ffffffff000000810000000300000002000001560000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000a0000000020000000000000000000000000200000064ffffffff000000810000000300000002000000a00000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>five_input_adder (/users/misc/mukundm/Desktop/Aman/cs220/codes/five_input_adder/five_input_adder.v)</CurrentItem>
+      <CurrentItem>xc3s500e-4fg320</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -35,13 +36,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e0000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e00000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a20000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -62,7 +63,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000301000000010001000100000000000000000000000064ffffffff000000810000000000000001000003010000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000012a000000010001000100000000000000000000000064ffffffff0000008100000000000000010000012a0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -153,12 +154,12 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a2000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a20000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
 </Project>

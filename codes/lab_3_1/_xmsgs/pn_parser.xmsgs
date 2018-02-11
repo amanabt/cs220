@@ -8,7 +8,11 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<<<<<<< HEAD
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_3_1/blink_LED.v&quot; into library work</arg>
+=======
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/users/misc/mukundm/Desktop/Aman/cs220/codes/lab_3_1/blink_LED.v&quot; into library work</arg>
+>>>>>>> ac1971aa986ce3f2df9639db88bf520007168b22
 </msg>
 
 </messages>
