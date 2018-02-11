@@ -1,0 +1,45 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_4_1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_4_1/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "rot_enc.v" in library work
+Compiling verilog file "rotate_LED.v" in library work
+Module <rot_enc> compiled
+Compiling verilog file "ripple_led_top.v" in library work
+Module <rotate_LED> compiled
+Module <ripple_led_top> compiled
+No errors in compilation
+Analysis of file <"ripple_led_top.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> 
+
+
+Total memory usage is 469900 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,5 @@
+set -tmpdir "/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_4_1/xst/projnav.tmp"
+set -xsthdpdir "/home/ubermensch/Academics/sems/sem8/cs220/cs220/codes/lab_4_1/xst"
+elaborate
+-ifn rotate_LED.prj
+-ifmt mixed
